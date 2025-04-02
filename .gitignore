@@ -1,0 +1,24 @@
+# macOS系
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Rust特有
+/target/
+Cargo.lock
+**/*.rs.bk
+
+# エディタ設定
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
